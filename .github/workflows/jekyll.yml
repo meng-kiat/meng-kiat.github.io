@@ -47,7 +47,7 @@ jobs:
         # Outputs to the './_site' directory by default
         run: 
            |
-           cd docs
+           cd /Users/mengkiat/Documents/GitHub/meng-kiat.github.io/docs
            bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
