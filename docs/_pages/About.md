@@ -1,5 +1,6 @@
 ---
 
+layout: pages
 permalink: /About/
 ---
 
