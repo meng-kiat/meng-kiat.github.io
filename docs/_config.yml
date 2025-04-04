@@ -310,11 +310,6 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  dashboards:
-    output: true
-    permalink: /:collection/:path/
-
 # Defaults
 defaults:
   # _posts
@@ -354,3 +349,12 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+
+collections:
+  dashboards:
+    output: true
+    permalink: /:collection/:path/
+  analysis:
+  output: true
+  permalink: /:collection/:path/
