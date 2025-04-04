@@ -1,0 +1,22 @@
+---
+layout: post
+title: "My First Blog Post"
+date: 2025-04-04
+author: "Your Name"
+categories: [Category1, Category2]
+tags: [Tag1, Tag2, Tag3]
+excerpt: "This is a short preview of my post."
+---
+
+## Welcome to My First Post
+
+This is my first blog post using Jekyll and the Minimal Mistakes theme.
+
+### **Why Jekyll?**
+- Simple and lightweight  
+- Supports Markdown  
+- Perfect for GitHub Pages  
+
+**Here's a code snippet example:**
+```ruby
+puts "Hello, Jekyll!"

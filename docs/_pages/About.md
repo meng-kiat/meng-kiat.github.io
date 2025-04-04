@@ -1,6 +1,6 @@
 ---
 
-
+permalink: /About/
 ---
 
 ## About me
