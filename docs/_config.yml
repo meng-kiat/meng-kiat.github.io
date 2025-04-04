@@ -310,6 +310,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  dashboards:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -340,11 +344,6 @@ defaults:
       type: foo
     values:
       layout: single
-
-collections:
-  dashboards:
-    output: true
-    permalink: /:collection/:path/
   
 defaults:
   # _dashboards
