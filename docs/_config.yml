@@ -346,3 +346,12 @@ collections:
     output: true
     permalink: /:collection/:path/
   
+defaults:
+  # _dashboards
+  - scope:
+      path: ""
+      type: dashboard
+    values:
+      layout: single
+      author_profile: false
+      share: true
