@@ -347,6 +347,16 @@ defaults:
       type: dashboard
     values:
       layout: single
+      author_profile: true
+      share: true
+
+defaults:
+  # _analysis
+  - scope:
+      path: ""
+      type: analysis
+    values:
+      layout: single
       author_profile: false
       share: true
 
