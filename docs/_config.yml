@@ -340,3 +340,9 @@ defaults:
       type: foo
     values:
       layout: single
+
+collections:
+  dashboards:
+    output: true
+    permalink: /:collection/:path/
+  
