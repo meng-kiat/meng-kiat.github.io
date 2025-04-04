@@ -1,8 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+title: Welcome to my portfolio website!
+layout: collection
+collection: dashboards
+entries_layout: grid
+classes: wide
 ---
 
-## Is This It?
+## Here are some of my posts regarding
