@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "meng-kiat | a portfolio website"
 title_separator          : "|"
-subtitle                 : "I wonder what this looks like"
+subtitle                 : ""
 name                     : "meng-kiat"
 description              : "My Portfolio Website."
 url                      : "https://meng-kiat.github.io"
