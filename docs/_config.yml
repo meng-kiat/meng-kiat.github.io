@@ -366,5 +366,5 @@ collections:
     output: true
     permalink: /:collection/:path/
   analysis:
-  output: true
-  permalink: /:collection/:path/
+    output: true
+    permalink: /:collection/:path/
