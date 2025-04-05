@@ -5,9 +5,6 @@ permalink: /dashboards/
 collection: dashboards
 entries_layout: grid
 classes: wide
+author_profile: true
 ---
-
-
-
-You can reach me at:
-[dlim089@e.ntu.edu.sg](mailto:dlim089@e.ntu.edu.sg)
+Here are some of the dashboards I've made:
