@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "meng-kiat"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/About.jpg"
   bio              : "Business Graduate from NTU seeking opportunities in analytics."
   location         : "Singapore"
   email            : "Denislim000@gmail.com"
