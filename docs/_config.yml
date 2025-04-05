@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "meng-kiat | a portfolio website"
+title                    : "meng-kiat | My Portfolio Website"
 title_separator          : "|"
 subtitle                 : ""
 name                     : "meng-kiat"
@@ -115,13 +115,10 @@ analytics:
 author:
   name             : "meng-kiat"
   avatar           : "/assets/images/About.jpg"
-  bio              : "Business Graduate from NTU seeking opportunities in analytics."
+  bio              : "Business Graduate from NTU passionate about Data, Analysis, and Video Editing."
   location         : "Singapore"
   email            : "Denislim000@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:denislim000@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
