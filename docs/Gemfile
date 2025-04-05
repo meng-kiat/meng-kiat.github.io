@@ -17,5 +17,3 @@ gem "jekyll-remote-theme"
 
 # If you have any plugins, put them here!
 gem "jekyll-include-cache"
-
- 
