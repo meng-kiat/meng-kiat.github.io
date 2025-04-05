@@ -18,14 +18,5 @@ Here is the .ipynb file where i fetch my match history data using Riot's api.
 
 [View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/TFT_Data.ipynb){: .btn .btn--info .btn--small}
 
-> **Note**: code can't be run as servers & server names have changed
-{: .notice}
-
-> Note: code can't be run as servers & server names have changed
-
-> **Note** code can't be run as servers & server names have changed
-{: .notice--warning}
-
-> *Note* code can't be run as servers & server names have changed
-
-> Note code can't be run as servers & server names have changed
+> **Note**: code is outdated as server names have changed
+{: .notice--info}
