@@ -18,5 +18,5 @@ Here is the .ipynb file where i fetch my match history data using Riot's api.
 
 [View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/TFT_Data.ipynb){: .btn .btn--info .btn--small}
 
-> *Note* **Note**: code can't be run as servers & server names have changed
+> **Note**: code can't be run as servers & server names have changed
 {: .notice .notice--info}
