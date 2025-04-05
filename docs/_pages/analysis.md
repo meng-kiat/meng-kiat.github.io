@@ -3,11 +3,8 @@ title: My Analysis
 layout: collection
 permalink: /analysis/
 collection: analysis
-entries_layout: grid
 classes: wide
+author_profile: true
 ---
 
-
-
-You can reach me at:
-[dlim089@e.ntu.edu.sg](mailto:dlim089@e.ntu.edu.sg)
+I document my analysis projects here. It mainly contains the code & thought processes of my work.
