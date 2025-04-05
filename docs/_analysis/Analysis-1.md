@@ -4,7 +4,6 @@ title:  "Personal TFT Data Project"
 date:   2025-04-04
 category: analysis
 author_profile: true
-classes: wide
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cloud"
