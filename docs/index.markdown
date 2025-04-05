@@ -1,10 +1,9 @@
 ---
 title: Welcome to my portfolio website!
-layout: categories
-# collection: dashboards
-entries_layout: grid
+layout: collection
+collection: dashboards
 classes: wide
 author_profile: true
 ---
 
-## Here are some of my posts regarding
+I keep track of various dashboards, analysis and videos I've done here.
