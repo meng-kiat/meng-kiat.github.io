@@ -9,7 +9,6 @@ toc_label: "Table of Contents"
 toc_icon: "file"
 ---
 
-# Introduction
 This is a personal project of mine to practise the full process from data collection to data analysis. 
 In this project, I use Riot Games' API to fetch my personal match history data, process & query it, produce dashboards and perform analysis on it.
 
