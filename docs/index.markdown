@@ -1,7 +1,7 @@
 ---
 title: Welcome to my portfolio website!
-layout: collection
-collection: dashboards
+layout: categories
+# collection: dashboards
 entries_layout: grid
 classes: wide
 author_profile: true
