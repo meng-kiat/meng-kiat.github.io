@@ -21,7 +21,11 @@ Here is the .ipynb file where i fetch my match history data using Riot's api.
 > **Note**: code can't be run as servers & server names have changed
 {: .notice}
 
-> **Note**: code can't be run as servers & server names have changed
+> Note: code can't be run as servers & server names have changed
 
-> **Note**: code can't be run as servers & server names have changed
+> **Note** code can't be run as servers & server names have changed
 {: .notice--warning}
+
+> *Note* code can't be run as servers & server names have changed
+
+> Note code can't be run as servers & server names have changed
