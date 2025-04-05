@@ -6,7 +6,7 @@ category: analysis
 author_profile: true
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cloud"
+toc_icon: "file"
 ---
 
 # Introduction
@@ -18,4 +18,5 @@ Here is the .ipynb file where i fetch my match history data using Riot's api.
 
 [View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/TFT_Data.ipynb){: .btn .btn--info .btn--small}
 
-(Take note that it is rather outdated, as servers & server names have changed).{: .notice .notice--info}
+> Take note that it is rather outdated, as servers & server names have changed
+{: .notice .notice--info}
