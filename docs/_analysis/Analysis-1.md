@@ -15,7 +15,7 @@ In this project, I use Riot Games' API to fetch my personal match history data, 
 
 # Data Preparation
 ## Data Collection
-Here is the .ipynb file where i fetch my match history data using Riot's api. 
+Here is the .ipynb file where i fetch my match history data using Riot's API. 
 
 [View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/TFT_Data.ipynb){: .btn .btn--info .btn--small}
 
@@ -23,7 +23,7 @@ Here is the .ipynb file where i fetch my match history data using Riot's api.
 {: .notice--info}
 
 ## Data Parsing
-The match data was a highly nested json, so I flattened it in python. Before flattening, I split and exported the data into df_traits, df_augments, df_units, df_items, making sure to keep match_number and placement information.
+The match data was a highly nested json, so I flattened it in Python. Before flattening, I split and exported the data into df_traits, df_augments, df_units, df_items, making sure to keep match_number and placement information.
 
 [View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
 
