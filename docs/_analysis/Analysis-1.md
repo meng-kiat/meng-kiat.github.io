@@ -13,6 +13,9 @@ This is a personal project of mine to practise the full process from data collec
 In this project, I use Riot Games' API to fetch my personal match history data, process & query it, produce dashboards and perform analysis on it.
 
 # Data Preparation
+Data was collected using Riot's API, fetching my match history specifically. Here's my profile on [lolchess](https://lolchess.gg/profile/sea/siden-mks/set11). The data is from Set 11.
+
+
 ## Data Collection
 Here is the .ipynb file where i fetch my match history data using Riot's API. 
 
