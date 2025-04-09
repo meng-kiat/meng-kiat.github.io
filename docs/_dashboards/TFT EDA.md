@@ -8,16 +8,18 @@ classes: wide
 ---
 Category: [Dashboards](https://meng-kiat.github.io/dashboards/){: .btn .btn--info .btn--small}
 {% raw %}
-<div class='tableauPlaceholder' id='viz1744226477517' style='position: relative'>
-  <noscript><a href='#'><img alt='TFT Exploratory Analysis' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TF&#47;TFTEDA&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript>
+<div class='tableauPlaceholder' id='viz1744226743741' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='TFT Exploratory Analysis' src='https://public.tableau.com/static/images/TF/TFTEDA/Story1/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
   <object class='tableauViz' style='display:none;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
-    <param name='site_root' value='' />
-    <param name='name' value='TFTEDA&#47;Story1' />
-    <param name='tabs' value='no' />
+    <param name='path' value='views/TFTEDA/Story1?:language=en-US&amp;:embed=true&amp;:sid=&amp;:redirect=auth' />
     <param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TF&#47;TFTEDA&#47;Story1&#47;1.png' />
+    <param name='static_image' value='https://public.tableau.com/static/images/TF/TFTEDA/Story1/1.png' />
     <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
     <param name='display_spinner' value='yes' />
@@ -27,7 +29,7 @@ Category: [Dashboards](https://meng-kiat.github.io/dashboards/){: .btn .btn--inf
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1744226477517');
+  var divElement = document.getElementById('viz1744226743741');
   var vizElement = divElement.getElementsByTagName('object')[0];
   if (divElement.offsetWidth > 800) {
     vizElement.style.width = '1169px';
