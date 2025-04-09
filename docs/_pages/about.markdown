@@ -11,3 +11,8 @@ This portfolio showcases my work in dashboard development and data analysis — 
 
 Besides that I like editing videos, casual photography and videography ([My Tiktok]("https://www.tiktok.com/@mengqoo")).
 
+{% raw %}
+<a href="https://www.tiktok.com/@mengqoo" target="_blank" class="btn btn--primary">
+  <i class="fab fa-tiktok"></i> My TikTok
+</a>
+{% endraw %}
