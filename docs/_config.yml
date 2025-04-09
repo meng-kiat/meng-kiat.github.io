@@ -134,7 +134,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "TikTok"
+    - label: " TikTok"
       icon: "fa-brands fa-tiktok"
       url: "https://tiktok.com/@mengqoo"
 
