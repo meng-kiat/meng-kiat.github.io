@@ -7,6 +7,7 @@ author_profile: true
 classes: wide
 ---
 Category: [Dashboards](https://meng-kiat.github.io/dashboards/){: .btn .btn--info .btn--small}
+This Tableau story is tied with the "Exploratory Data Analysis" Section of my [TFT Data Project]("https://meng-kiat.github.io/analysis/Analysis-1/#exploratory-data-analysis")
 {% raw %}
 <div class='tableauPlaceholder' id='viz1744226743741' style='position: relative'>
   <noscript>
