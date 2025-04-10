@@ -136,7 +136,7 @@ author:
       # url: "https://instagram.com/"
     - label: " TikTok"
       icon: "fa-brands fa-tiktok"
-      url: "https://tiktok.com/@mengqoo"
+    #  url: "https://tiktok.com/@mengqoo"
 
 # Site Footer
 footer:
