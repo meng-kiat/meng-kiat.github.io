@@ -11,6 +11,8 @@ I keep track of various dashboards, analysis and videos I've done here.
 ## [Personal TFT Data Project (Dashboard)](https://meng-kiat.github.io/dashboards/TFT%20EDA/)
 <small>Category: Dashboards</small>
 
+
+<small>Category: Videos</small>
 ## [Real Estate Profit Management (Dashboard)](https://meng-kiat.github.io/dashboards/Watershed%20Dashboard/)
 
 ## [Digital Learning Internship Video](https://meng-kiat.github.io/videos/2025-25-03-First/)
