@@ -23,20 +23,26 @@ I keep track of various dashboards, analysis and videos I've done here.
 
 ## Analysis
 <ul>
-  {% for item in site.analysis %}
+  {% assign reversed_analysis = site.analysis | reverse %}
+  {% for item in reversed_analysis %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
-      {{ item.excerpt | strip_html }}
+      <span style="display: block; font-size: 0.75em;"> 
+        {{ item.excerpt | strip_html }} 
+      </span>
     </li>
   {% endfor %}
 </ul>
 
 ## Videos
 <ul>
-  {% for item in site.videos %}
+  {% assign reversed_videos = site.videos | reverse %}
+  {% for item in reversed_videos %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
-      {{ item.excerpt | strip_html }}
+      <span style="display: block; font-size: 0.75em;"> 
+        {{ item.excerpt | strip_html }} 
+      </span>
     </li>
   {% endfor %}
 </ul>
