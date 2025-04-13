@@ -6,6 +6,8 @@ category: dashboards
 author_profile: true
 classes: wide
 ---
+2025-04-02
+
 Category: [Dashboards](https://meng-kiat.github.io/dashboards/){: .btn .btn--info .btn--small}
 
 Here's a dashboard I made for a course on Coursera: Increasing Real Estate Management Profits: Harnessing Data Analysis. The model will adjust automatically when you change the parameters. Clicking on any data point (or multiple data points with ctrl-click) on the histogram & map will filter the data on other graphs accordingly as well. This was the final dashboard from the capstone project of Excel to MySQL: Analytic Techniques for Business Specialization.
