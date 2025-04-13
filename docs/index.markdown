@@ -8,16 +8,6 @@ author_profile: true
 
 I keep track of various dashboards, analysis and videos I've done here.
 
-## [Personal TFT Data Project (Dashboard)](https://meng-kiat.github.io/dashboards/TFT%20EDA/)
-<small>Category: Dashboards</small>
-
-
-<small>Category: Videos</small>
-## [Real Estate Profit Management (Dashboard)](https://meng-kiat.github.io/dashboards/Watershed%20Dashboard/)
-
-## [Digital Learning Internship Video](https://meng-kiat.github.io/videos/2025-25-03-First/)
-<small>Category: Videos</small>
-
 # Projects
 {% for item in site.dashboards %}
 - [{{ item.title }}]({{ item.url }}) – {{ item.excerpt | strip_html }}
@@ -25,14 +15,15 @@ I keep track of various dashboards, analysis and videos I've done here.
 
 ---
 
-#Research
+# Analysis
 {% for item in site.analysis %}
-- [{{ item.title }}]({{ item.url }}) – {{ item.excerpt | strip_html }}
+- [{{ item.title }}]({{ item.url }})  
+  <br><span class="small-excerpt">{{ item.excerpt | strip_html }}</span>
 {% endfor %}
 
 ---
 
-# Notes
+# Videos
 {% for item in site.videos %}
 - [{{ item.title }}]({{ item.url }}) – {{ item.excerpt | strip_html }}
 {% endfor %}
