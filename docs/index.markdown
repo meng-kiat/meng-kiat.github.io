@@ -1,6 +1,6 @@
 ---
 title: Welcome to my portfolio website!
-layout: default
+layout: single
 #collection: dashboards
 classes: wide
 author_profile: true
