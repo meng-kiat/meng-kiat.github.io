@@ -6,6 +6,8 @@ category: videos
 author_profile: true
 classes: wide
 ---
+Date Posted: 2025-04-02
+
 Category: [Videos](https://meng-kiat.github.io/videos/){: .btn .btn--info .btn--small}
 
 Here is a video I did during my Digital Learning internship at CSC. It does not showcase any data analysis, but I got to practise making a motion graphic video in a professional setting. 
