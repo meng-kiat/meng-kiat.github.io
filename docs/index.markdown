@@ -17,8 +17,10 @@ I keep track of various dashboards, analysis and videos I've done here.
 
 # Analysis
 {% for item in site.analysis %}
-- [{{ item.title }}]({{ item.url }})  
-  <br><span style="font-size: 0.85em; color: #666;">{{ item.excerpt | strip_html }}</span>
+- <a href="{{ item.url }}">{{ item.title }}</a>  
+  <span style="display: block; font-size: 0.85em; color: #666;">
+    {{ item.excerpt | strip_html }}
+  </span>
 {% endfor %}
 
 ---
