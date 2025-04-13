@@ -1,7 +1,7 @@
 ---
 title: Welcome to my portfolio website!
-layout: single
-#collection: dashboards
+layout: collection
+collection: dashboards
 classes: wide
 author_profile: true
 ---
@@ -36,6 +36,18 @@ I keep track of various dashboards, analysis and videos I've done here.
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
       <span style="display: block; font-size: 0.85em; color: #666;">
+        {{ item.excerpt | strip_html }}
+      </span>
+    </li>
+  {% endfor %}
+</ul>
+
+# Again
+<ul>
+  {% for item in site.analysis %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      <span style=" font-size: 0.85em; color: #666;">
         {{ item.excerpt | strip_html }}
       </span>
     </li>
