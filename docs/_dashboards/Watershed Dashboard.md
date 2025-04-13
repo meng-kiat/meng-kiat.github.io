@@ -6,7 +6,7 @@ category: dashboards
 author_profile: true
 classes: wide
 ---
-2025-04-02
+Date Posted: 2025-04-02
 
 Category: [Dashboards](https://meng-kiat.github.io/dashboards/){: .btn .btn--info .btn--small}
 
