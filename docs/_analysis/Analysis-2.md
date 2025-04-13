@@ -4,9 +4,6 @@ title:  "Real Estate Management Project"
 date:   2025-04-04
 category: analysis
 author_profile: true
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "file"
 ---
 Category: [Code & Analysis](https://meng-kiat.github.io/analysis/){: .btn .btn--info .btn--small}
 
