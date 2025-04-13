@@ -14,7 +14,9 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% for item in reversed_dashboards %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
-      {{ item.excerpt | strip_html }}
+      <span style="display: block; font-size: 0.75em;"> 
+        {{ item.excerpt | strip_html }} 
+      </span>
     </li>
   {% endfor %}
 </ul>
