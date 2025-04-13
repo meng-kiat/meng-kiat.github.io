@@ -365,8 +365,6 @@ collections:
   dashboards:
     output: true
     permalink: /:collection/:path/
-    sort_by: date
-    order: descending
   analysis:
     output: true
     permalink: /:collection/:path/
