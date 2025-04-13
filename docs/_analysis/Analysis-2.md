@@ -11,6 +11,6 @@ Category: [Code & Analysis](https://meng-kiat.github.io/analysis/){: .btn .btn--
 
 This project is part of my presentation for the capstone project of a course on Coursera: Increasing Real Estate Management Profits: Harnessing Data Analysis. The relevant dashboard for the project can be found [here](https://meng-kiat.github.io/dashboards/Watershed Dashboard/)
 
-![Slide 1]("/assets/images/Slide3.png")
-![Slide 2](/assets/images/proposal/Slide4.png)
-![Slide 3](/assets/images/proposal/Slide5.png)
+![Slide1]("/assets/images/Slide3.png")
+![Slide2](/assets/images/proposal/Slide4.png)
+![Slide3](/assets/images/proposal/Slide5.png)
