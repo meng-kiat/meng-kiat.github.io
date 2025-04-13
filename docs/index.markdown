@@ -8,7 +8,7 @@ author_profile: true
 
 I keep track of various dashboards, analysis and videos I've done here.
 
-# Projects
+## Dashboards
 <ul style="list-style: none; padding-left: 0;">
   {% for item in site.dashboards %}
     <li>
@@ -19,9 +19,9 @@ I keep track of various dashboards, analysis and videos I've done here.
     </li>
   {% endfor %}
 </ul>
+---
 
-
-# Analysis
+## Analysis
 <ul style="list-style: none; padding-left: 0;">
   {% for item in site.analysis %}
     <li>
@@ -34,7 +34,7 @@ I keep track of various dashboards, analysis and videos I've done here.
 </ul>
 ---
 
-# Videos
+## Videos
 <ul style="list-style: none; padding-left: 0;">
   {% for item in site.videos %}
     <li>
