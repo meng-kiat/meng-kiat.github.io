@@ -1,7 +1,7 @@
 ---
 title: Welcome to my portfolio website!
-layout: single
-#collection: dashboards
+layout: collection
+collection: dashboards
 classes: wide
 author_profile: true
 ---
@@ -13,8 +13,8 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% for item in site.dashboards %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
-      <span style="display: block; font-size: 0.85em;">
-        - {{ item.excerpt | strip_html }}
+      <span style="display: block; font-size: 0.75em;">
+        {{ item.excerpt | strip_html }}
       </span>
     </li>
   {% endfor %}
@@ -27,8 +27,8 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% for item in site.analysis %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
-      <span style="display: block; font-size: 0.85em;">
-        - {{ item.excerpt | strip_html }}
+      <span style="display: block; font-size: 0.75em;">
+        {{ item.excerpt | strip_html }}
       </span>
     </li>
   {% endfor %}
@@ -40,8 +40,8 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% for item in site.videos %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
-      <span style="display: block; font-size: 0.85em;">
-        - {{ item.excerpt | strip_html }}
+      <span style="display: block; font-size: 0.75em;">
+        {{ item.excerpt | strip_html }}
       </span>
     </li>
   {% endfor %}
