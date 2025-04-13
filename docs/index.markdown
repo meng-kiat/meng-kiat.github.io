@@ -9,7 +9,7 @@ author_profile: true
 I keep track of various dashboards, analysis and videos I've done here.
 
 ## Dashboards
-<ul style="list-style: none; padding-left: 0;">
+<ul>
   {% for item in site.dashboards %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
@@ -18,7 +18,7 @@ I keep track of various dashboards, analysis and videos I've done here.
 </ul>
 
 ## Analysis
-<ul style="list-style: none; padding-left: 0;">
+<ul>
   {% for item in site.analysis %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
@@ -27,7 +27,7 @@ I keep track of various dashboards, analysis and videos I've done here.
 </ul>
 
 ## Videos
-<ul style="list-style: none; padding-left: 0;">
+<ul>
   {% for item in site.videos %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
