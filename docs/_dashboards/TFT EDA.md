@@ -5,7 +5,7 @@ date:   2025-04-01
 category: dashboards
 author_profile: true
 classes: wide
-tags: [group]
+tags: [group, hey, what]
 ---
 Category: [Dashboards](https://meng-kiat.github.io/dashboards/){: .btn .btn--info .btn--small}
 
