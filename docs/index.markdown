@@ -10,9 +10,11 @@ I keep track of various dashboards, analysis and videos I've done here.
 
 ## Dashboards
 <ul>
-  {% for item in site.dashboards %}
+  {% assign reversed_dashboards = site.dashboards | reverse %}
+  {% for item in reversed_dashboards %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
+      {{ item.excerpt | strip_html }}
     </li>
   {% endfor %}
 </ul>
@@ -22,6 +24,7 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% for item in site.analysis %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
+      {{ item.excerpt | strip_html }}
     </li>
   {% endfor %}
 </ul>
@@ -31,6 +34,7 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% for item in site.videos %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
+      {{ item.excerpt | strip_html }}
     </li>
   {% endfor %}
 </ul>
