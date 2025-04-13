@@ -4,6 +4,7 @@ title:  "Real Estate Management Project"
 date:   2025-04-04
 category: analysis
 author_profile: true
+order: 2
 ---
 Date Posted: 2025-04-04
 
