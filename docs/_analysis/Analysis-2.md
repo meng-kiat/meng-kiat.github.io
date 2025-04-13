@@ -14,5 +14,5 @@ This project is part of my presentation for the capstone project of a course on 
 ![Slide1](/assets/images/proposal/Slide3.PNG)
 ---
 ![Slide2](/assets/images/proposal/Slide4.PNG)
----
+***
 ![Slide3](/assets/images/proposal/Slide5.PNG)
