@@ -29,3 +29,15 @@ I keep track of various dashboards, analysis and videos I've done here.
 {% for item in site.videos %}
 - [{{ item.title }}]({{ item.url }}) – {{ item.excerpt | strip_html }}
 {% endfor %}
+
+# Test
+<ul>
+  {% for item in site.analysis %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      <span style="display: block; font-size: 0.85em; color: #666;">
+        {{ item.excerpt | strip_html }}
+      </span>
+    </li>
+  {% endfor %}
+</ul>
