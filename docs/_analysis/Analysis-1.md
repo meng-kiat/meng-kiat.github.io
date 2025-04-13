@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Personal TFT Data Project"
+title:  "Personal TFT Data Project (Python, MySQL, Tableau)"
 date:   2025-4-05
 category: analysis
 author_profile: true

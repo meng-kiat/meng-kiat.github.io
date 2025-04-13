@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Real Estate Management Project"
+title:  "Real Estate Management Project (MySQL, Tableau)"
 date:   2025-04-04
 category: analysis
 author_profile: true
