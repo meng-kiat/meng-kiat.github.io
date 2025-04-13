@@ -365,6 +365,10 @@ collections:
   dashboards:
     output: true
     permalink: /:collection/:path/
+    order: 
+    - TFT EDA.md
+    - Watershed Dashboard.md
+    - Dognition Dashboard.md
   analysis:
     output: true
     permalink: /:collection/:path/
