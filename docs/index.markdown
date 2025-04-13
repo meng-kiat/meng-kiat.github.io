@@ -19,7 +19,6 @@ I keep track of various dashboards, analysis and videos I've done here.
     </li>
   {% endfor %}
 </ul>
----
 
 ## Analysis
 <ul style="list-style: none; padding-left: 0;">
@@ -32,7 +31,6 @@ I keep track of various dashboards, analysis and videos I've done here.
     </li>
   {% endfor %}
 </ul>
----
 
 ## Videos
 <ul style="list-style: none; padding-left: 0;">
