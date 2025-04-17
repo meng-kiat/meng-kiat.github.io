@@ -21,7 +21,7 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% endfor %}
 </ul>
 
-## Analysis
+## Projects
 <ul>
   {% assign reversed_analysis = site.analysis | reverse %}
   {% for item in reversed_analysis %}
