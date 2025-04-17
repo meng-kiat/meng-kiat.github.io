@@ -1,5 +1,5 @@
 ---
-title: My Analysis
+title: Projects
 layout: collection
 permalink: /analysis/
 collection: analysis
@@ -8,4 +8,4 @@ author_profile: true
 sort_by: order
 ---
 
-I document my analysis projects here. It mainly contains the code & thought processes of my work.
+I document my data projects here. It mainly contains the code, thought processes and deliverables of my work.

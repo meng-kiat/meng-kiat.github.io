@@ -4,7 +4,7 @@ main:
     url: /about/
   - title: "Dashboards"
     url: /dashboards/
-  - title: "Code & Analysis"
+  - title: "Data Projects"
     url: /analysis/
   - title: "Videos"
     url: /videos/
