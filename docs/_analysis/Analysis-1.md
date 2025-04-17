@@ -11,7 +11,7 @@ order: 1
 ---
 Date Posted: 2025-04-05
 
-Category: [Code & Analysis](https://meng-kiat.github.io/analysis/){: .btn .btn--info .btn--small}
+Category: [Data Projects](https://meng-kiat.github.io/analysis/){: .btn .btn--info .btn--small}
 
 This is a personal project of mine to practise the full process from data collection to data analysis. 
 In this project, I use Riot Games' API to fetch my personal match history data, process & query it, produce dashboards and perform analysis on it.
