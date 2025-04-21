@@ -2,10 +2,10 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Projects"
+    url: /analysis/
   - title: "Dashboards"
     url: /dashboards/
-  - title: "Data Projects"
-    url: /analysis/
   - title: "Videos"
     url: /videos/
   # - title: "Sample Posts"
