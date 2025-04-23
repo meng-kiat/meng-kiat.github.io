@@ -41,10 +41,24 @@ To clean this data, we will use Riot's static JSON data source (Data Dragon) to 
 
 ![flatten](/assets/images/tft1/flatten.png)
 
+<pre> '''#units
+with open("tft-champion-minus.json") as json_file:
+    json_data = json.load(json_file)
+
+df_unit = pd.DataFrame([
+    [value["id"], value["name"]] for value in json_data.values()
+],columns=["id","name"])''' </pre>
+
 
 After exporting these as csv files, we imported them into MySQL for querying to merge and clean the tables.
 
+<pre> ```select * from df_augments; ``` </pre>
+
 ![uncleaned](/assets/images/tft1/uncleaned.png)
+
+<pre> ```### Cleaned Augments
+select match_number, participant_placement, name, CASE WHEN da.participant_placement = 1 THEN 1 ELSE 0 END as First
+from df_augments da left join df_augment_static das on da.participant_augments = das.id;``` </pre>
 
 ![cleaned](/assets/images/tft1/cleaned.png)
 
