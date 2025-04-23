@@ -39,14 +39,14 @@ The raw match history data used system-level identifiers that were confusing. Fo
 
 To clean this data, we will use Riot's static JSON data source (Data Dragon) to create csv files with cleaned names that we can then merge with our dataframes.
 
-![Flatten](/assets/images/TFT/Flatten.PNG)
+![Flatten](/assets/images/tft1/Flatten.PNG)
 
 
 After exporting these as csv files, we imported them into MySQL for querying to merge and clean the tables.
 
-![Uncleaned](/assets/images/TFT/Uncleaned.PNG)
+![Uncleaned](/assets/images/tft1/Uncleaned.PNG)
 
-![Cleaned](/assets/images/TFT/Cleaned.PNG)
+![Cleaned](/assets/images/tft1/Cleaned.PNG)
 
 ## Data Querying
 I use the previously exported dataframes (.csv files) and imported them for querying into mysql.
