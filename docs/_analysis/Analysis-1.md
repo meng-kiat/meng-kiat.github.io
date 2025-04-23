@@ -34,9 +34,15 @@ The match data was a highly nested json, so I flattened it in Python. Before fla
 [View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
 
 ### Data Cleaning
-There are many augments, units and items with confusing names. For example, data from the match history data we acquired calls the augment 'mulched', 'TFT11_Augment_Dryad'.
+The raw match history data used system-level identifiers that were confusing. For example, in the match history data, the augment mulched's identifier was 'TFT11_Augment_Dryad'.
 
-To clean this data, we will use Riot's static JSON data source (Data Dragon) to create relations with cleaned names that we can merge with our dataframes.
+To clean this data, we will use Riot's static JSON data source (Data Dragon) to create csv files with cleaned names that we can then merge with our dataframes.
+|[Flatten](/assets/images/Analysis-1/Flatten__Data_Dragon.PNG)|
+|Flattening Data Dragon|
+
+After exporting these as csv files, we imported them into MySQL for querying to merge and clean the tables.
+[Uncleaned](/assets/images/Analysis-1/Uncleaned_Augments.PNG)|[Cleaned](/assets/images/Analysis-1/Cleaned_Augments.PNG)
+
 
 ## Data Querying
 I use the previously exported dataframes (.csv files) and imported them for querying into mysql.
