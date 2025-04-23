@@ -8,10 +8,10 @@ author_profile: true
 
 I keep track of various dashboards, analysis and videos I've done here.
 
-## Dashboards
+## Projects
 <ul>
-  {% assign reversed_dashboards = site.dashboards | reverse %}
-  {% for item in reversed_dashboards %}
+  {% assign reversed_analysis = site.analysis | reverse %}
+  {% for item in reversed_analysis %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
       <span style="display: block; font-size: 0.75em;"> 
@@ -21,10 +21,10 @@ I keep track of various dashboards, analysis and videos I've done here.
   {% endfor %}
 </ul>
 
-## Projects
+## Dashboards
 <ul>
-  {% assign reversed_analysis = site.analysis | reverse %}
-  {% for item in reversed_analysis %}
+  {% assign reversed_dashboards = site.dashboards | reverse %}
+  {% for item in reversed_dashboards %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
       <span style="display: block; font-size: 0.75em;"> 
