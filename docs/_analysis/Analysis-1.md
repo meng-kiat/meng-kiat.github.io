@@ -48,6 +48,8 @@ After exporting these as csv files, we imported them into MySQL for querying to 
 
 ![cleaned](/assets/images/tft1/cleaned.PNG)
 
+<img src="{{site.baseurl}}/assets/images/tft1/cleaned.PNG">
+
 ## Data Querying
 I use the previously exported dataframes (.csv files) and imported them for querying into mysql.
 
