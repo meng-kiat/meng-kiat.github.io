@@ -16,6 +16,8 @@ This project is part of my presentation for the capstone project of a course on 
 <object data="https://meng-kiat.github.io/assets/files/Watershed-White-Paper.pdf" width="1000" height="1000" type='application/pdf'></object>
 {% endraw %}
 
+---
+
 ![Slide1](/assets/images/proposal/Slide3.PNG)
 
 ---
