@@ -140,12 +140,13 @@ Having Neeko on my board is a likely indicator that:
 ---
 
 ### What are my best/worst augments?
-![topaugments](/assets/images/tft1/topaugments1.png)
-
+![worstaugments](/assets/images/tft1/worstaugments.png)
 **Tiny Titans** has poor performance in my games.
 -	However, it is likely associated with riskier plays
 o	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
 -	Does not give any combat power or economy unlike most augments.
+
+![topaugments](/assets/images/tft1/topaugments1.png)
 
 Notably, **Salvage Bin** is an extremely good augment for me. 
 
