@@ -79,8 +79,8 @@ You can find refer to my [story](https://meng-kiat.github.io/dashboards/TFT%20ED
 
 ## Deep Dive Analysis
 
-### What are the best/worst units if you have an extra slot?
-In TFT, most compositions have a set of units to play for optimal trait webs. Sometimes, you have extra slot(s), and we call units that take these slots "plus ones". Maybe units with no items?
+### What are the best units if you have an extra slot?
+In TFT, most compositions have a set of units to play for optimal trait webs. Sometimes, you have extra slot(s), and we call units that take these slots "plus ones". To filter for them, maybe we investigate units with no items?
 
 {% highlight ruby %}
 ##Best Units with no items (What units are the best flexible inserts / plus ones)
@@ -112,12 +112,11 @@ I made an inaccurate assumption as it is likely that I give items to these flexi
 
 Referring to Units most played:
 
-[unitsmostplayed](/assets/images/tft1/unitsmostplayed.png)
+![unitsmostplayed](/assets/images/tft1/unitsmostplayed.png)
 
 Firstly, we omit the units from my best composition (Fated). These are all my most played units Ornn-Kindred-Azir-Thresh-Syndra-Sett-Ahri. Although Ornn is a great flexible addition as well, which explains his significantly higher play rate.
 
 Wukong and Udyr are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
-
 
 Best Carries: 
 Kindred (3.21 in 72 games)
@@ -135,4 +134,20 @@ Having Neeko on my board is a likely indicator that:
 1.	I do not have Wukong, a powerful 5-cost heavenly unit that would adequately replace Neeko and has a more powerful stat bonus (omnivamp)
 2.	In games where I died early because of a weak board / tempo etc., I am more likely to not have Wukong, a 5-cost unit.
 
+### What are my best/worst augments?
+![topaugments](/assets/images/tft1/topaugments.png)
 
+Tiny Titans has poor performance in my games.
+-	However, it is likely associated with riskier plays
+o	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
+-	Does not give any combat power or economy unlike most augments.
+
+Notably, Salvage Bin is an extremely good augment for me. 
+
+>Salvage Bin: Gain 1 random completed item now, and 1 component after 7 player combats. Selling champions breaks completed items into components (excluding Tactician's Crown).
+
+In terms of combat strength, Salvage Bin is relatively worse than other augments, as it only offers 3 components in overall combat strength (Combat augments that buff whole teams would be worse in early game, buffing only a few units, but scale better as you are able to field more units in the late game). Its strength comes from allowing you to complete subpar items in the early game for early board strength for good tempo early. 
+
+- I could be too passive in other games, saving my item components, resulting in disparity in performance.
+- I am comfortable playing a tempo-style where I conserve tactician hp by winning early. But this could also be an indicator that I am good at converting these spots to high placements despite relatively less combat power from Salvage Bin.
+- Tempo-style is generally less risky and results in generally higher average placements.
