@@ -117,24 +117,24 @@ Referring to Units most played:
 
 ![unitsmostplayed](/assets/images/tft1/unitsmostplayed.png)
 
-Firstly, we omit the units from my best composition (Fated). These are all my most played units Ornn-Kindred-Azir-Thresh-Syndra-Sett-Ahri. Although Ornn is a great flexible addition as well, which explains his significantly higher play rate.
+Firstly, we omit the units from my best composition (Fated). These are all my most played units Ornn-Kindred-Azir-Thresh-Syndra-Sett-Ahri. Although **Ornn** is a great flexible addition as well, which explains his significantly higher play rate.
 
-Wukong and Udyr are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
+**Wukong** and **Udyr** are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
 
-Best Carries: 
+Best Carries: <br>
 Kindred (3.21 in 72 games)<br>
 Gnar (2.96 in 45 games)<br>
 Syndra (3.24 in 58 games)<br>
 
-Worst Carries: 
+Worst Carries: <br>
 Lillia (5.21 in 14 games)<br>
 Kog'Maw (4.69 in 13 games)<br>
 
-Neeko stands out as the worst unit amongst my most played units with an average placement of 5.16.
+**Neeko** stands out as the worst unit amongst my most played units with an average placement of 5.16.
 
-Neeko is commonly played in Heavenly boards. In the heavenly trait, each heavenly unit gives different stat bonuses. Her bonus is flat hp, which is worse than other Heavenly bonuses such as additional resistances and attack speed, as flat hp is far less valuable later into the game.
+**Neeko** is commonly played in Heavenly boards. In the heavenly trait, each heavenly unit gives different stat bonuses. Her bonus is flat hp, which is worse than other Heavenly bonuses such as additional resistances and attack speed, as flat hp is far less valuable later into the game.
 Having Neeko on my board is a likely indicator that:
-1.	I do not have Wukong, a powerful 5-cost heavenly unit that would adequately replace Neeko and has a more powerful stat bonus (omnivamp)
+1.	I do not have **Wukong**, a powerful 5-cost heavenly unit that would adequately replace Neeko and has a more powerful stat bonus (omnivamp)
 2.	In games where I died early because of a weak board / tempo etc., I am more likely to not have Wukong, a 5-cost unit.
 
 ---
@@ -142,12 +142,12 @@ Having Neeko on my board is a likely indicator that:
 ### What are my best/worst augments?
 ![topaugments](/assets/images/tft1/topaugments1.png)
 
-Tiny Titans has poor performance in my games.
+**Tiny Titans** has poor performance in my games.
 -	However, it is likely associated with riskier plays
 o	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
 -	Does not give any combat power or economy unlike most augments.
 
-Notably, Salvage Bin is an extremely good augment for me. 
+Notably, **Salvage Bin** is an extremely good augment for me. 
 
 >Salvage Bin: Gain 1 random completed item now, and 1 component after 7 player combats. Selling champions breaks completed items into components (excluding Tactician's Crown).
 
