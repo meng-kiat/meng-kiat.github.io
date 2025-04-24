@@ -140,7 +140,7 @@ Having Neeko on my board is a likely indicator that:
 ---
 
 ### What are my best/worst augments?
-![topaugments](/assets/images/tft1/topaugments.png)
+![topaugments](/assets/images/tft1/topaugments1.png)
 
 Tiny Titans has poor performance in my games.
 -	However, it is likely associated with riskier plays
