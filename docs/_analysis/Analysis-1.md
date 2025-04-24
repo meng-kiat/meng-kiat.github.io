@@ -147,6 +147,11 @@ Having Neeko on my board is a likely indicator that:
     -	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
 -	Does not give any combat power or economy unlike most augments.
 
+>Big Grab Bag: Gain 3 random components, 2 gold, and 1 Reforger.
+
+Generally, I believed **Big Grab Bag** to be a generic augment I could take in most spots. However, I generally have bad placmeent averages with it. It could have bad combat power, (offering only 3 components), and likely should be taken only in spots where I need the **Reforger** in scenarios where I have bad items (For example, in games where I have too many offensive components and need defensive ones instead.)
+
+
 ![topaugments](/assets/images/tft1/topaugments1.png)
 
 Notably, **Salvage Bin** is an extremely good augment for me. 
