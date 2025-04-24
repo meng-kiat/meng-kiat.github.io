@@ -55,13 +55,14 @@ df_unit = pd.DataFrame([
 After exporting these as csv files, we imported them into MySQL for querying to merge and clean the tables.
 
 {% highlight ruby %}
+# Uncleaned Augments
 select * from df_augments; 
 {% endhighlight %}
 
 ![uncleaned](/assets/images/tft1/uncleaned.png)
 
 {% highlight ruby %}
-### Cleaned Augments
+# Cleaned Augments
 select match_number, participant_placement, name, CASE WHEN da.participant_placement = 1 THEN 1 ELSE 0 END as First
 from df_augments da left join df_augment_static das on da.participant_augments = das.id;
 {% endhighlight %}
