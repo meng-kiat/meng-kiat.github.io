@@ -112,15 +112,21 @@ I made an inaccurate assumption as it is likely that I give items to these flexi
 
 Referring to Units most played:
 
-[unitsmostplayed](/assets/images/tft1/unitsmostplayed.PNG)
+[unitsmostplayed](/assets/images/tft1/unitsmostplayed.png)
 
 Firstly, we omit the units from my best composition (Fated). These are all my most played units Ornn-Kindred-Azir-Thresh-Syndra-Sett-Ahri. Although Ornn is a great flexible addition as well, which explains his significantly higher play rate.
 
 Wukong and Udyr are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
 
 
-Best Carries: Kindred (3.21 in 72 games), Gnar (2.96 in 45 games), Syndra (3.24 in 58 games)
-Worst Carries: Lillia (5.21 in 14 games), Kog'Maw (4.69 in 13 games)
+Best Carries: 
+Kindred (3.21 in 72 games)
+Gnar (2.96 in 45 games)
+Syndra (3.24 in 58 games)
+
+Worst Carries: 
+Lillia (5.21 in 14 games), 
+Kog'Maw (4.69 in 13 games)
 
 Neeko stands out as the worst unit amongst my most played units with an average placement of 5.16.
 
