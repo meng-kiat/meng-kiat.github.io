@@ -109,6 +109,8 @@ Reksai (2.13333)
 
 I made an inaccurate assumption as it is likely that I give items to these flexible add-ons once I have itemised key carries and tanks in my compositions. We will refer to units most played to further investigate flexible add-ons while investigating what are my best units in general.
 
+---
+
 ### What are my best/worst units?
 
 Referring to Units most played:
@@ -120,13 +122,13 @@ Firstly, we omit the units from my best composition (Fated). These are all my mo
 Wukong and Udyr are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
 
 Best Carries: 
-Kindred (3.21 in 72 games)
-Gnar (2.96 in 45 games)
-Syndra (3.24 in 58 games)
+Kindred (3.21 in 72 games)<br>
+Gnar (2.96 in 45 games)<br>
+Syndra (3.24 in 58 games)<br>
 
 Worst Carries: 
-Lillia (5.21 in 14 games), 
-Kog'Maw (4.69 in 13 games)
+Lillia (5.21 in 14 games)<br>
+Kog'Maw (4.69 in 13 games)<br>
 
 Neeko stands out as the worst unit amongst my most played units with an average placement of 5.16.
 
@@ -134,6 +136,8 @@ Neeko is commonly played in Heavenly boards. In the heavenly trait, each heavenl
 Having Neeko on my board is a likely indicator that:
 1.	I do not have Wukong, a powerful 5-cost heavenly unit that would adequately replace Neeko and has a more powerful stat bonus (omnivamp)
 2.	In games where I died early because of a weak board / tempo etc., I am more likely to not have Wukong, a 5-cost unit.
+
+---
 
 ### What are my best/worst augments?
 ![topaugments](/assets/images/tft1/topaugments.png)
