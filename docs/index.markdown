@@ -1,12 +1,11 @@
 ---
 title: Welcome to my portfolio website!
 layout: single
-#collection: dashboards
 classes: wide
 author_profile: true
 ---
 
-I keep track of various dashboards, analysis and videos I've done here.
+I keep track of various projects, dashboards and videos I've done here.
 
 ## Projects
 <ul>
