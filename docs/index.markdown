@@ -21,6 +21,7 @@ gallery:
 
 I keep track of various projects, dashboards and videos I've done here.
 
+{% include gallery %}
 
 ## Projects
 <ul>
