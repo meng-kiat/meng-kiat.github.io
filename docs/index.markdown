@@ -16,7 +16,7 @@ gallery:
   - url: /assets/images/gallery1/radashboard.png
     image_path: /assets/images/gallery1/radashboard.png
     alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    title: Image 3 title caption
 ---
 
 I keep track of various projects, dashboards and videos I've done here.
