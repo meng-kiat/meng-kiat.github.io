@@ -7,6 +7,21 @@ author_profile: true
 
 I keep track of various projects, dashboards and videos I've done here.
 
+gallery:
+  - url: /dashboards/Watershed%20Dashboard/
+    image_path: /assets/images/gallery/radashboard.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url:  # could be bigger image instead, to show off dashboards nicer
+    image_path: /assets/images/gallery/.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/gallery/radashboard.png
+    image_path: /assets/images/gallery/radashboard.png
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
+
+
 ## Projects
 <ul>
   {% assign reversed_analysis = site.analysis | reverse %}

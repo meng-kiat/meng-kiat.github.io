@@ -25,7 +25,7 @@ Data was collected using Riot's API, fetching my match history specifically. Her
 ## Data Collection
 Here is the .ipynb file where i fetch my match history data using Riot's API. 
 
-[View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/TFT_Data2.ipynb){: .btn .btn--info .btn--small}
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
 
 > **Note**: code is outdated as server names have changed
 {: .notice--info}
