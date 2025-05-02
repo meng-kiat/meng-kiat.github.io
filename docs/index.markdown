@@ -3,9 +3,6 @@ title: Welcome to my portfolio website!
 layout: single
 classes: wide
 author_profile: true
----
-
-I keep track of various projects, dashboards and videos I've done here.
 
 gallery:
   - url: /dashboards/Watershed%20Dashboard/
@@ -20,6 +17,9 @@ gallery:
     image_path: /assets/images/gallery/radashboard.png
     alt: "placeholder image 3"
     title: "Image 3 title caption"
+---
+
+I keep track of various projects, dashboards and videos I've done here.
 
 
 ## Projects
