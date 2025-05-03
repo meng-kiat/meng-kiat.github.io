@@ -25,7 +25,7 @@ Data was collected using Riot's API, fetching my match history specifically. Her
 ## Data Collection
 Here is the .ipynb file where i fetch my match history data using Riot's API. 
 
-[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/TFT_Data2.ipynb){: .btn .btn--info .btn--small}
 
 > **Note**: code is outdated as server names have changed
 {: .notice--info}
@@ -33,7 +33,7 @@ Here is the .ipynb file where i fetch my match history data using Riot's API.
 ## Data Parsing
 The match data was a highly nested json, so I flattened it in Python. Before flattening, I split and exported the data into df_traits, df_augments, df_units, df_items, making sure to keep match_number and placement information.
 
-[View Notebook](https://nbviewer.org/github/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
 
 ### Data Cleaning
 The raw match history data used system-level identifiers that were confusing. For example, in the match history data, the augment mulched's identifier was 'TFT11_Augment_Dryad'.

@@ -4,20 +4,6 @@ layout: single
 classes: wide
 author_profile: true
 
-gallery:
-  - url: /dashboards/Watershed%20Dashboard/
-    image_path: /assets/images/gallery1/radashboard.png
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url:  # could be bigger image instead, to show off dashboards nicer
-    image_path: /assets/images/gallery1/.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
-  - url: /assets/images/gallery1/radashboard.png
-    image_path: /assets/images/gallery1/radashboard.png
-    alt: "placeholder image 3"
-    title: Image 3 title caption
-
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
@@ -38,8 +24,6 @@ feature_row:
 ---
 
 I keep track of various projects, dashboards and videos I've done here.
-
-{% include gallery %}
 
 {% include feature_row %}
 
