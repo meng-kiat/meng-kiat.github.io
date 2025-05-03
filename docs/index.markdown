@@ -8,7 +8,8 @@ feature_row:
   - image_path: /assets/images/gallery1/radashboard.png
     alt: "placeholder image 1"
     title: "Watershed Dashboard"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Capstone Project for Real Estate Management"
+    url: /dashboards/Watershed%20Dashboard/
   - image_path: /assets/images/gallery1/radashboard.png
     alt: "placeholder image 2"
     title: "Time Series Forecasting"
