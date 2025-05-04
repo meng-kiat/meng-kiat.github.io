@@ -13,12 +13,12 @@ feature_row:
   - image_path: /assets/images/gallery1/radashboard.png
     alt: "placeholder image 2"
     title: "Time Series Forecasting"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Forecasting Project optimising store inventory"
     url: /dashboards/Watershed%20Dashboard/
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
+    title: "Personal TFT Data Project"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 
