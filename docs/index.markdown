@@ -12,14 +12,14 @@ feature_row:
     url: /dashboards/Watershed%20Dashboard/
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/gallery1/tft_one.png
+  - image_path: /assets/images/gallery1/tft_one.jpg
     alt: "placeholder image 2"
     title: "Personal TFT Data Project"
     excerpt: "Practising data-fetching, analysis and dashboarding."
     url: /analysis/Analysis-1/
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/gallery1/forecast_one.png
+  - image_path: /assets/images/gallery1/forecast_one.jpg
     title: "Time Series Forecasting"
     excerpt: "Kaggle Project practising forecasting."
     url: /analysis/Analysis-1/
