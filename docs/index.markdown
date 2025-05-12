@@ -10,17 +10,21 @@ feature_row:
     title: "Watershed Dashboard"
     excerpt: "Capstone Project for Real Estate Management"
     url: /dashboards/Watershed%20Dashboard/
-  - image_path: /assets/images/gallery1/radashboard.png
-    alt: "placeholder image 2"
-    title: "Time Series Forecasting"
-    excerpt: "Forecasting Project optimising store inventory"
-    url: /dashboards/Watershed%20Dashboard/
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+  - image_path: /assets/images/gallery1/tft_one.png
+    alt: "placeholder image 2"
     title: "Personal TFT Data Project"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-
+    excerpt: "Practising data-fetching, analysis and dashboarding."
+    url: /analysis/Analysis-1/
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/gallery1/forecast_one.png
+    title: "Time Series Forecasting"
+    excerpt: "Kaggle Project practising forecasting."
+    url: /analysis/Analysis-1/
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 
 ---
 
