@@ -5,6 +5,7 @@ date:   2025-04-05
 category: analysis
 author_profile: true
 order: 2
+classes: wide
 ---
 Date Posted: 2025-04-04
 
