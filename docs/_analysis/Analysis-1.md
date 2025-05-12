@@ -76,7 +76,7 @@ I use the previously exported dataframes (.csv files) and imported them for quer
 # Data Analysis
 
 ## Exploratory Data Analysis
-You can find refer to my [story](https://meng-kiat.github.io/dashboards/TFT%20EDA/) and my Tableau dashboard for surface level insights on my match data.
+You can refer to my [story](https://meng-kiat.github.io/dashboards/TFT%20EDA/) and my Tableau dashboard for surface level insights on my match data.
 
 ## Deep Dive Analysis
 
