@@ -7,7 +7,7 @@ author_profile: true
 feature_row:
   - image_path: /assets/images/gallery1/radashboard.png
     alt: "placeholder image 1"
-    title: "Watershed Dashboard"
+    title: "<h2>Watershed Dashboard</h2>"
     excerpt: "Capstone Project for Real Estate Management"
     url: /dashboards/Watershed%20Dashboard/
     btn_label: "Read More"
