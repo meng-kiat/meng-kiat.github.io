@@ -7,14 +7,14 @@ author_profile: true
 feature_row:
   - image_path: /assets/images/gallery1/radashboard.png
     alt: "placeholder image 1"
-    title: "<h4>Watershed Dashboard</h4>"
+    title: "Watershed Dashboard"
     excerpt: "Capstone Project for Real Estate Management"
     url: /dashboards/Watershed%20Dashboard/
     btn_label: "Read More"
     btn_class: "btn--small"
   - image_path: /assets/images/gallery1/tft_one.jpg
     alt: "placeholder image 2"
-    title: "<h3>Personal TFT Data Project</h3>"
+    title: "Personal TFT Data Project"
     excerpt: "Practising data-fetching, analysis and dashboarding."
     url: /analysis/Analysis-1/
     btn_label: "Read More"
