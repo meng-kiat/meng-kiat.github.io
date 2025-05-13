@@ -11,14 +11,14 @@ feature_row:
     excerpt: "Capstone Project for Real Estate Management"
     url: /dashboards/Watershed%20Dashboard/
     btn_label: "Read More"
-    btn_class: "btn--inverse"
+    btn_class: "btn--small"
   - image_path: /assets/images/gallery1/tft_one.jpg
     alt: "placeholder image 2"
     title: "Personal TFT Data Project"
     excerpt: "Practising data-fetching, analysis and dashboarding."
     url: /analysis/Analysis-1/
     btn_label: "Read More"
-    btn_class: "btn--inverse btn--small"
+    btn_class: "btn--small"
   - image_path: /assets/images/gallery1/forecast_one.jpg
     title: "Store Sales Forecasting"
     excerpt: "Kaggle Project practising forecasting."

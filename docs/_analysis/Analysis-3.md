@@ -16,5 +16,6 @@ Date Posted: 2025-04-22
 
 Category: [Data Projects](https://meng-kiat.github.io/analysis/){: .btn .btn--info .btn--small}
 
-[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
+This is a time series forecasting project using a Kaggle dataset. You can view the accompanying jupyter notebook below.
 
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
