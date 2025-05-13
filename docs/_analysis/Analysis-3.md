@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Time Series Forecasting Project (Python)"
+title:  "Store Sales Forecasting Project (Python)"
 date:   2025-4-03
 category: analysis
 author_profile: true
@@ -17,3 +17,4 @@ Date Posted: 2025-04-22
 Category: [Data Projects](https://meng-kiat.github.io/analysis/){: .btn .btn--info .btn--small}
 
 [View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
+

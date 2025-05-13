@@ -18,13 +18,13 @@ feature_row:
     excerpt: "Practising data-fetching, analysis and dashboarding."
     url: /analysis/Analysis-1/
     btn_label: "Read More"
-    btn_class: "btn--inverse"
+    btn_class: "btn--inverse btn--small"
   - image_path: /assets/images/gallery1/forecast_one.jpg
-    title: "Time Series Forecasting"
+    title: "Store Sales Forecasting"
     excerpt: "Kaggle Project practising forecasting."
-    url: /analysis/Analysis-1/
+    url: /analysis/Analysis-3/
     btn_label: "Read More"
-    btn_class: "btn--inverse"
+    btn_class: "btn--small"
 
 
 ---
