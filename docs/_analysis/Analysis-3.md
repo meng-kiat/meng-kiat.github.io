@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Store Sales Forecasting Project (Python)"
+title:  "Time Series Forecasting (Python)"
 date:   2025-4-03
 category: analysis
 author_profile: true

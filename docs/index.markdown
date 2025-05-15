@@ -15,13 +15,13 @@ feature_row:
   - image_path: /assets/images/gallery1/tft_one.jpg
     alt: "placeholder image 2"
     title: "Personal TFT Data Project"
-    excerpt: "Practising data-fetching, analysis and dashboarding."
+    excerpt: "Practising API data-fetching, analysis and dashboarding."
     url: /analysis/Analysis-1/
     btn_label: "Read More"
     btn_class: "btn--small"
   - image_path: /assets/images/gallery1/forecast_one.jpg
-    title: "Store Sales Forecasting"
-    excerpt: "Kaggle Project practising forecasting."
+    title: "Time Series Forecasting"
+    excerpt: "Practising Forecasting with Kaggle projects and others."
     url: /analysis/Analysis-3/
     btn_label: "Read More"
     btn_class: "btn--small"
