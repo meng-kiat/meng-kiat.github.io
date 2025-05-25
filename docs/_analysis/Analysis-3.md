@@ -7,7 +7,7 @@ author_profile: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file"
-toc_sticky: true
+toc_sticky: false
 order: 3
 classes: wide
 ---
@@ -67,6 +67,7 @@ Initial inspection of the ACF and PACF plots revealed that although data was sta
 We use these plots to identify candidates orders for the p & q components of the ARIMA model. For example, since information drops off after lags 1 & 2, we do a grid search with range 0-2 for both p & q.
 
 {% highlight ruby %}
+
 {% endhighlight %}
 
 {% highlight ruby %}
