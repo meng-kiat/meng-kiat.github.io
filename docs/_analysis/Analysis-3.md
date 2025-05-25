@@ -68,9 +68,7 @@ We use these plots to identify candidates orders for the p & q components of the
 
 Here are some snippets from my grid search:
 
-![image5](/assets/images/forecasting/one_5.jpg)
-
-<img src="/assets/images/forecasting/one_5.jpg" alt="RMSE MAPE" class="align-left" style="width: 75%;">
+<img src="/assets/images/forecasting/one_5.jpg" alt="RMSE MAPE" class="align-left" style="width: 75%;"><br>
 
 For sales data under category 'produce', we arrived at p,d,q values of 2,0,0 for the ARIMA model, along with 1,0,1,7 for the seasonal component.
 
