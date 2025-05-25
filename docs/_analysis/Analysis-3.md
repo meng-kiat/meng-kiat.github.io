@@ -94,9 +94,9 @@ As previously shown, training against data from 2015-06-15 to 2017-06-14 and usi
 
 ![image8](/assets/images/forecasting/one_8.png)
 
-Lastly, we have the residual plots. 
+Lastly, we have the residual plots. Ideally, they should be completely random.
 
-We can see that there is information that the model has not captured, since both the ACF & PACF plots are not completely within the confidence band. This could be due to lack of exogeneous variables for the SARIMAX model. If favorita wishes to work with us and provides us with even more information, we can build an more accurate model.
+We can see that there is information that the model has not captured since both plots are not fully within the confidence band. This could be due to lack of exogeneous variables for the model. If favorita wishes to work with us and provides us with even more information, we can build an even more accurate model.
 
 ## Implementation
 
