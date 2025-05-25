@@ -7,7 +7,7 @@ author_profile: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file"
-toc_sticky: true
+toc_sticky: false
 order: 1
 classes: wide
 ---
