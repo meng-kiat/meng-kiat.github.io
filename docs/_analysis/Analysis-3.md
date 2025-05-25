@@ -66,8 +66,43 @@ Initial inspection of the ACF and PACF plots revealed that although data was sta
 
 We use these plots to identify candidates orders for the p & q components of the ARIMA model. For example, since information drops off after lags 1 & 2, we do a grid search with range 0-2 for both p & q.
 
-{% highlight ruby %}
+Here are some snippets from my grid search:
 
+![image5](/assets/images/forecasting/one_5.jpg)
+
+For sales data under category 'produce', we arrived at p,d,q values of 2,0,0 for the ARIMA model, along with 1,0,1,7 for the seasonal component.
+
+Followed by an example forecast from initial train-test-split using test data as last 2 months and earlier dates as training data.
+
+![image6](/assets/images/forecasting/one_6.png)
+
+Finally, we have an example future 2-year forecast using, all of the data, inclusive of the 2 months we initially used as test data.
+
+![image7](/assets/images/forecasting/one_7.png)
+
+## Evaluation
+
+Since we lack actual future data, we'll evaluate using RSME and MAPE.
+
+As previously shown, training against data from 2015-06-15 to 2017-06-14 and using 2017-06-15 to 2017-08-15 yielded an average RMSE of 11689.75 with an average MAPE of 6.23%, suggesting that the forecasts are highly accurate.
+
+### Residuals
+
+![image8](/assets/images/forecasting/one_8.png)
+
+Lastly, we have the residual plots. We can see that there is still some relevant information that the SARIMAX model has not captured, since both the ACF & PACF plots are not completely within the confidence band. This likely could be due to lack of exogeneous variables for the SARIMAX model. If favorita wishes to work with us and provides us with even more information, we can build an more accurate model.
+
+## Implementation
+
+Based on these PoC results, we believe that implementing forecasting model can lead to savings from reduced inventory holding costs and reducing wasted inventory. Customer Satisfaction will also improve due to reduced instances of stockouts.
+
+### Recommendations
+
+We recommend a pilot program focused on a few categories first. By focusing on a few categories with an ample amount of sales data and maybe other variabels such as promotion, holidays, etc., we can further refine models for forecasting.
+
+To scale up, we can prepare automated date infrastructure that will automatically recover exogeneous variables from sales data to be fed into the pipeline to create real-time forecasts.
+
+{% highlight ruby %}
 {% endhighlight %}
 
 {% highlight ruby %}
