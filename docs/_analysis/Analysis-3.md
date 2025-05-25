@@ -90,7 +90,9 @@ As previously shown, training against data from 2015-06-15 to 2017-06-14 and usi
 
 ![image8](/assets/images/forecasting/one_8.png)
 
-Lastly, we have the residual plots. We can see that there is still some relevant information that the SARIMAX model has not captured, since both the ACF & PACF plots are not completely within the confidence band. This likely could be due to lack of exogeneous variables for the SARIMAX model. If favorita wishes to work with us and provides us with even more information, we can build an more accurate model.
+Lastly, we have the residual plots. 
+
+We can see that there is information that the model has not captured, since both the ACF & PACF plots are not completely within the confidence band. This could be due to lack of exogeneous variables for the SARIMAX model. If favorita wishes to work with us and provides us with even more information, we can build an more accurate model.
 
 ## Implementation
 
@@ -98,9 +100,11 @@ Based on these PoC results, we believe that implementing forecasting model can l
 
 ### Recommendations
 
-We recommend a pilot program focused on a few categories first. By focusing on a few categories with an ample amount of sales data and maybe other variabels such as promotion, holidays, etc., we can further refine models for forecasting.
+We recommend a pilot program focused on a few categories first. By focusing on a few categories with an ample amount of sales data and including other variables such as promotion data, we can further refine models for forecasting for all categories.
 
-To scale up, we can prepare automated date infrastructure that will automatically recover exogeneous variables from sales data to be fed into the pipeline to create real-time forecasts.
+If performance is within acceptable ranges for 2 months, forecasts can potentially be used in determining inventory to order and forecasting can be implemented for more categories.
+
+To scale up, we can prepare automated date infrastructure that will automatically retrieve exogeneous variables from sales data to be fed into the pipeline to create forecasts in real-time.
 
 {% highlight ruby %}
 {% endhighlight %}
