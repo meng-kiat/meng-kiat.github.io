@@ -7,9 +7,9 @@ author_profile: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file"
-toc_sticky: false
+toc_sticky: true
 order: 3
-#classes: wide
+classes: wide
 ---
 
 Date Posted: 2025-04-22
