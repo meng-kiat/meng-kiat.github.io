@@ -117,9 +117,11 @@ Referring to Units most played:
 
 ![unitsmostplayed](/assets/images/tft1/unitsmostplayed.png)
 
+Size depicts the amount of games a unit is played, and a darker colour indicates a better placement average.
+
 Firstly, we omit the units from my best composition (Fated). These are all my most played units Ornn-Kindred-Azir-Thresh-Syndra-Sett-Ahri. Although **Ornn** is a great flexible addition as well, which explains his significantly higher play rate.
 
-**Wukong** and **Udyr** are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
+**Wukong** and **Udyr** are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and a strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
 
 <ins>Best Carries:</ins> <br>
 Kindred (3.21 in 72 games)<br>
@@ -132,10 +134,11 @@ Kog'Maw (4.69 in 13 games)<br>
 
 **Neeko** stands out as the worst unit amongst my most played units with an average placement of 5.16.
 
-**Neeko** is commonly played in Heavenly boards. In the heavenly trait, each heavenly unit gives different stat bonuses. Her bonus is flat hp, which is worse than other Heavenly bonuses such as additional resistances and attack speed, as flat hp is far less valuable later into the game.
+**Neeko** is commonly played in Heavenly boards. Each heavenly unit gives different stat bonuses. Her bonus is flat hp, which is less valuable than other Heavenly bonuses such as additional resistances and attack speed later into the game.
+
 Having Neeko on my board is a likely indicator that:
-1.	I do not have **Wukong**, a powerful 5-cost heavenly unit that would adequately replace Neeko and has a more powerful stat bonus (omnivamp)
-2.	In games where I died early because of a weak board / tempo etc., I am more likely to not have Wukong, a 5-cost unit.
+1.	I do not have **Wukong**, a powerful 5-cost heavenly unit that would adequately replace Neeko and has a more valuable heavenly bonus (omnivamp)
+2.	In heavenly games where I died early because I did not play well, I am more likely to not have Wukong, a 5-cost unit which shows up later.
 
 ---
 
@@ -147,10 +150,13 @@ Having Neeko on my board is a likely indicator that:
     -	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
 -	Does not give any combat power or economy unlike most augments.
 
->*Big Grab Bag:* Gain 3 random components, 2 gold, and 1 Reforger.
+**Big Grab Bag** stands out to me as I personally believed that it was a flexible augment that I could take in most games safely, however, I have bad placement averages with it.
 
-Generally, I believed **Big Grab Bag** to be a generic augment I could take in most spots. However, I generally have bad placements with it. It could have bad combat power, (offering only 3 components), and likely should be taken only in spots where I need the **Reforger** in scenarios where I have bad items (For example, in games where I have too many offensive components and need defensive ones instead.)
+>**Big Grab Bag:** Gain 3 random components, 2 gold, and 1 Reforger.
 
+It could have bad combat power, (offering only 3 components), and likely should be taken only in spots where I need the **Reforger** in scenarios where I have bad items (For example, in games where I have too many offensive components and need defensive ones instead.)
+
+>**Reforger:** Unequip all items and randomly transform them into new ones of a similar type and quality.
 
 ![topaugments](/assets/images/tft1/topaugments1.png)
 

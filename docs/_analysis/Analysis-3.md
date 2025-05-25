@@ -37,29 +37,35 @@ The full .ipynb file(s) can be found in the link below.
 
 First, we take a look at the store sales data.
 
-![image1](/assets/images/forecasting/one_1)
+![image1](/assets/images/forecasting/one_1.png)
 
 The dataset is quite large, and each family (category) varies in volume purchased. We'll take a closer look by plotting after aggregating using family instead.
 
-![image2](/assets/images/forecasting/one_2)
+![image2](/assets/images/forecasting/one_2.png)
 
 From the image above, we can see that there are clear inconsistencies / missing data in the dataset, especially so pre June 2015. Regression and Machine Learning Models likely won't be able to capture useful information if we include those dates, and thus we will focus on data post June 2015.
 
-## Model building
+## Methodology
 
 As a proof of concept, we investigate the credibility of our methods by building some forecasts from datasets with a good amount of sales. We will work with categories 'Produce' and 'Poultry'.
 
 We will use the SARIMAX model for time series forecasting. We expect strong weekly seasonality since Favorita sells daily goods.
 
-### Feature Engineering
+### Model Building
 
 As we are using an ARIMA model, we check for stationarity with ADF. 
 
-![image3](/assets/images/forecasting/one_3)
+![image3](/assets/images/forecasting/one_3.png)
 
 Both datasets were within the acceptable range to be stationary.
 
-We then plotted the auto-correlation and partial auto-correlation plots to investigate the AR & MA . 
+We then plotted the auto-correlation (ACF) and partial auto-correlation (PACF) plots to investigate the AR & MA. 
+
+Initial inspection of the ACF and PACF plots revealed that although data was stationary, it was not seasonally stationary. With spikes at 7, 14, 21... , we can clearly see strong weekly seasonality as expected. 
+
+![image4](/assets/images/forecasting/one_4.png)
+
+
 
 {% highlight ruby %}
 {% endhighlight %}
