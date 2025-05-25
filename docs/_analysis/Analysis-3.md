@@ -40,7 +40,7 @@ First, we take a look at the store sales data.
 
 The dataset is quite large, and each family (category) varies in volume purchased. We'll take a closer look by plotting after aggregating using family instead.
 
-![image2](/assets/images/forecasting/one_2.png)
+![image2](/assets/images/forecasting/one_2.jpg)
 
 From the image above, we can see that there are clear inconsistencies / missing data in the dataset, especially so pre June 2015. Regression and Machine Learning Models likely won't be able to capture useful information if we include those dates, and thus we will focus on data post June 2015.
 
@@ -69,6 +69,8 @@ We use these plots to identify candidates orders for the p & q components of the
 Here are some snippets from my grid search:
 
 ![image5](/assets/images/forecasting/one_5.jpg)
+
+<img src="/assets/images/forecasting/one_5.jpg" alt="RMSE MAPE" class="align-left" style="width: 75%;">
 
 For sales data under category 'produce', we arrived at p,d,q values of 2,0,0 for the ARIMA model, along with 1,0,1,7 for the seasonal component.
 
