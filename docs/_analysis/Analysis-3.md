@@ -72,6 +72,7 @@ Here are some snippets from my grid search:
 <img src="/assets/images/forecasting/one_5.jpg" alt="RMSE MAPE" class="align-left" style="width: 75%;">
 </div>
 <div style="clear: both;"></div>
+<br>
 
 For sales data under category 'produce', we arrived at p,d,q values of 2,0,0 for the ARIMA model, along with 1,0,1,7 for the seasonal component.
 
