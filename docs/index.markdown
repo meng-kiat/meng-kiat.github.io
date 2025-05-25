@@ -19,9 +19,9 @@ feature_row:
     url: /analysis/Analysis-1/
     btn_label: "Read More"
     btn_class: "btn--small"
-  - image_path: /assets/images/gallery1/forecast_one.jpg
-    title: "Time Series Forecasting"
-    excerpt: "Practising Forecasting with Kaggle projects and others."
+  - image_path: /assets/images/gallery1/forecast_two.jpg
+    title: "Store Sales Forecasting"
+    excerpt: "Practising Forecasting with Kaggle projects."
     url: /analysis/Analysis-3/
     btn_label: "Read More"
     btn_class: "btn--small"

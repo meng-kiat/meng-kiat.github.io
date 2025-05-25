@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Time Series Forecasting (Python)"
+title:  "Store Sales Forecasting (Python)"
 date:   2025-4-03
 category: analysis
 author_profile: true
@@ -74,7 +74,7 @@ For sales data under category 'produce', we arrived at p,d,q values of 2,0,0 for
 
 Followed by an example forecast from initial train-test-split using test data as last 2 months and earlier dates as training data.
 
-![image6](/assets/images/forecasting/one_6.png)
+![image6](/assets/images/forecasting/one_6z.png)
 
 Finally, we have an example future 2-year forecast using, all of the data, inclusive of the 2 months we initially used as test data.
 
