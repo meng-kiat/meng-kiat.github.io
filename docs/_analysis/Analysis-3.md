@@ -7,9 +7,9 @@ author_profile: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file"
-toc_sticky: "true"
+toc_sticky: false
 order: 3
-classes: wide
+#classes: wide
 ---
 
 Date Posted: 2025-04-22
@@ -20,8 +20,7 @@ In this page I practice forecasting, feature engineering, and using various regr
 
 # Store Sales Forecasting
 
-This project uses the [Store Sales Dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting). 
- from Kaggle. The goal of this project is to optimize inventory for the store Favorita in Ecuador. The desired outcomes are to:
+This project uses the [Store Sales Dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)  from Kaggle. The goal of this project is to optimize inventory for the store Favorita in Ecuador. The desired outcomes are to:
 
 1.	Reduce Waste (By reducing wasted inventory)
 2.	Improving customer satisfaction by ensuring inventory is always adequate
@@ -53,7 +52,7 @@ We will use the SARIMAX model for time series forecasting. We expect strong week
 
 ### Model Building
 
-As we are using an ARIMA model, we check for stationarity with ADF. 
+As we are using an ARIMA model, we check for stationarity with Augmented Dickey-Fuller (ADF) test. 
 
 ![image3](/assets/images/forecasting/one_3.png)
 
@@ -61,11 +60,11 @@ Both datasets were within the acceptable range to be stationary.
 
 We then plotted the auto-correlation (ACF) and partial auto-correlation (PACF) plots to investigate the AR & MA. 
 
-Initial inspection of the ACF and PACF plots revealed that although data was stationary, it was not seasonally stationary. With spikes at 7, 14, 21... , we can clearly see strong weekly seasonality as expected. 
+Initial inspection of the ACF and PACF plots revealed that although data was stationary according to the ADF test, it was not seasonally stationary. With spikes at 7, 14, 21... , we can clearly see strong weekly seasonality as expected. The following are the ACF and PACF plots after differencing for the weekly seasonality.
 
 ![image4](/assets/images/forecasting/one_4.png)
 
-
+We use these plots to identify candidates orders for the p & q components of the ARIMA model. For example, since information drops off after lags 1 & 2, we do a grid search with range 0-2 for both p & q.
 
 {% highlight ruby %}
 {% endhighlight %}
