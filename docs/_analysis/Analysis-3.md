@@ -16,6 +16,53 @@ Date Posted: 2025-04-22
 
 Category: [Data Projects](https://meng-kiat.github.io/analysis/){: .btn .btn--info .btn--small}
 
-This is a time series forecasting project using a Kaggle dataset. You can view the accompanying jupyter notebook below.
+In this page I practice forecasting, feature engineering, and using various regression and machine learning models.
 
-[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Parsing%20TFT%20data%20copy.ipynb){: .btn .btn--info .btn--small}
+# Store Sales Forecasting
+
+This project uses the [Store Sales Dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting). 
+ from Kaggle. The goal of this project is to optimize inventory for the store Favorita in Ecuador. The desired outcomes are to:
+
+1.	Reduce Waste (By reducing wasted inventory)
+2.	Improving customer satisfaction by ensuring inventory is always adequate
+3.	Reduce inventory holding costs
+
+This starts with having accurate forecasts to optimize inventory to reduce waste and holding costs. 
+
+The full .ipynb file(s) can be found in the link below.
+
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/Sales%20Forecasting%20SARIMAX-Final.ipynb){: .btn .btn--info .btn--small}
+
+## Exploratory Data Analysis
+
+First, we take a look at the store sales data.
+
+![image1](/assets/images/forecasting/one_1)
+
+The dataset is quite large, and each family (category) varies in volume purchased. We'll take a closer look by plotting after aggregating using family instead.
+
+![image2](/assets/images/forecasting/one_2)
+
+From the image above, we can see that there are clear inconsistencies / missing data in the dataset, especially so pre June 2015. Regression and Machine Learning Models likely won't be able to capture useful information if we include those dates, and thus we will focus on data post June 2015.
+
+## Model building
+
+As a proof of concept, we investigate the credibility of our methods by building some forecasts from datasets with a good amount of sales. We will work with categories 'Produce' and 'Poultry'.
+
+We will use the SARIMAX model for time series forecasting. We expect strong weekly seasonality since Favorita sells daily goods.
+
+### Feature Engineering
+
+As we are using an ARIMA model, we check for stationarity with ADF. 
+
+![image3](/assets/images/forecasting/one_3)
+
+Both datasets were within the acceptable range to be stationary.
+
+We then plotted the auto-correlation and partial auto-correlation plots to investigate the AR & MA . 
+
+{% highlight ruby %}
+{% endhighlight %}
+
+{% highlight ruby %}
+{% endhighlight %}

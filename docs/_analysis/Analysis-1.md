@@ -121,12 +121,12 @@ Firstly, we omit the units from my best composition (Fated). These are all my mo
 
 **Wukong** and **Udyr** are the best flexible add-ins amongst 5 costs. Udyr has a built-in revive, and strong crowd control ability, making him a flexible tank addition to any team. Wukong provides strong teamwide bonuses with his heavenly and sage traits.
 
-Best Carries: <br>
+<ins>Best Carries:</ins> <br>
 Kindred (3.21 in 72 games)<br>
 Gnar (2.96 in 45 games)<br>
 Syndra (3.24 in 58 games)<br>
 
-Worst Carries: <br>
+<ins>Worst Carries:</ins> <br>
 Lillia (5.21 in 14 games)<br>
 Kog'Maw (4.69 in 13 games)<br>
 
@@ -147,7 +147,7 @@ Having Neeko on my board is a likely indicator that:
     -	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
 -	Does not give any combat power or economy unlike most augments.
 
->Big Grab Bag: Gain 3 random components, 2 gold, and 1 Reforger.
+>*Big Grab Bag:* Gain 3 random components, 2 gold, and 1 Reforger.
 
 Generally, I believed **Big Grab Bag** to be a generic augment I could take in most spots. However, I generally have bad placements with it. It could have bad combat power, (offering only 3 components), and likely should be taken only in spots where I need the **Reforger** in scenarios where I have bad items (For example, in games where I have too many offensive components and need defensive ones instead.)
 
@@ -156,7 +156,7 @@ Generally, I believed **Big Grab Bag** to be a generic augment I could take in m
 
 Notably, **Salvage Bin** is an extremely good augment for me. 
 
->Salvage Bin: Gain 1 random completed item now, and 1 component after 7 player combats. Selling champions breaks completed items into components (excluding Tactician's Crown).
+>*Salvage Bin:* Gain 1 random completed item now, and 1 component after 7 player combats. Selling champions breaks completed items into components (excluding Tactician's Crown).
 
 In terms of combat strength, Salvage Bin is relatively worse than other augments, as it only offers 3 components in overall combat strength (Combat augments that buff whole teams would be worse in early game, buffing only a few units, but scale better as you are able to field more units in the late game). Its strength comes from allowing you to complete subpar items in the early game for early board strength for good tempo early. 
 
