@@ -143,6 +143,15 @@ Having Neeko on my board is a likely indicator that:
 ---
 
 ### What are my best/worst augments?
+{% highlight ruby %}
+#Best and worst augments
+select das.name as augment, avg(da.participant_placement) as placement_average, count(da.participant_placement) as games, AVG(CASE WHEN da.participant_placement = 1 THEN 1 ELSE 0 END) AS win_rate
+from df_augments da left join df_augment_static as das on da.participant_augments = das.id
+group by das.name
+having games > 2
+order by placement_average;
+{% endhighlight %}
+
 ![worstaugments](/assets/images/tft1/worstaugments.png)
 
 **Tiny Titans** has poor performance in my games.
