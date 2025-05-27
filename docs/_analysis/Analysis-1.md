@@ -84,7 +84,7 @@ You can refer to my [story](https://meng-kiat.github.io/dashboards/TFT%20EDA/) a
 In TFT, most compositions have a set of units to play for optimal trait webs. Sometimes, you have extra slot(s), and we call units that take these slots "plus ones". To filter for them, maybe we investigate units with no items?
 
 {% highlight ruby %}
-##Best Units with no items (What units are the best flexible inserts / plus ones)
+#Best Units with no items (What units are the best flexible inserts / plus ones)
 select avg(participant_placement) as placement_average, dus.unit_name as unit, dus.rarity, count(participant_placement) as games, AVG(CASE WHEN participant_placement = 1 THEN 1 ELSE 0 END) AS win_rate
 from df_items di left join df_item_static dis on di.itemNames = dis.id left join df_unit_static_new dus on di.character_id = dus.id
 where itemNames = ''
@@ -150,22 +150,44 @@ Having Neeko on my board is a likely indicator that:
     -	Lose-streak traits like fortune, where I sacrifice tactician health in the early game for future rewards.
 -	Does not give any combat power or economy unlike most augments.
 
-**Big Grab Bag** stands out to me as I personally believed that it was a flexible augment that I could take in most games safely, however, I have bad placement averages with it.
+**Big Grab Bag** stands out to me as I believed that it was a flexible augment that I could take in most games, however, my placement average (5.20 in 10 games) suggests otherwise.
 
 >**Big Grab Bag:** Gain 3 random components, 2 gold, and 1 Reforger.
 
-It could have bad combat power, (offering only 3 components), and likely should be taken only in spots where I need the **Reforger** in scenarios where I have bad items (For example, in games where I have too many offensive components and need defensive ones instead.)
+It has bad value, offering only 3 components, and likely should be taken only in spots where I need the **Reforger** (For example, in games where I have too many offensive components and need defensive ones instead.) 
 
 >**Reforger:** Unequip all items and randomly transform them into new ones of a similar type and quality.
+
+**Big Grab Bag** offering 3 components also means it is significantly weaker when the game gives all players an even number of components, as I will have a leftover component. (2 components make 1 item, which is significantly stronger.)
 
 ![topaugments](/assets/images/tft1/topaugments1.png)
 
 Notably, **Salvage Bin** is an extremely good augment for me. 
 
->*Salvage Bin:* Gain 1 random completed item now, and 1 component after 7 player combats. Selling champions breaks completed items into components (excluding Tactician's Crown).
+>**Salvage Bin:** Gain 1 random completed item now, and 1 component after 7 player combats. Selling champions breaks completed items into components (excluding Tactician's Crown).
 
 In terms of combat strength, Salvage Bin is relatively worse than other augments, as it only offers 3 components in overall combat strength (Combat augments that buff whole teams would be worse in early game, buffing only a few units, but scale better as you are able to field more units in the late game). Its strength comes from allowing you to complete subpar items in the early game for early board strength for good tempo early. 
 
 - I could be too passive in other games, saving my item components, resulting in disparity in performance.
 - I am comfortable playing a tempo-style where I conserve tactician hp by winning early. But this could also be an indicator that I am good at converting these spots to high placements despite relatively less combat power from Salvage Bin.
 - Tempo-style is generally less risky and results in generally higher average placements.
+
+### What are my best/worst traits?
+
+{% highlight ruby %}
+#Best Traits
+Select avg(participant_placement) as placement_average, dts.name as trait, participant_traits_tier_current as trait_tier, min(participant_traits_tier_total) as no_of_tiers, min(participant_traits_num_units) as no_of_units, count(participant_placement) as games, AVG(CASE WHEN participant_placement = 1 THEN 1 ELSE 0 END) AS win_rate 
+from df_traits dt left join df_trait_static dts on dt.participant_traits_name = dts.id 
+where dts.name is not null
+group by trait, trait_tier
+having games > 20 and trait_tier >0
+order by placement_average;
+{% endhighlight %}
+
+![toptraits](/assets/images/tft1/toptraits.png)
+
+As expected, aligned with many past observations, **Dryad** stands out as my best trait / team composition, especially when it is tier 3, averaging a strong 2.09, with a 0.45 winrate.
+
+**Exalted** (3.47) was a special trait introduced in this set, which gave you teamwide benefits for fielding 3 of such units. The unique feature of this trait was that units who had the exalted trait varied from game to game, with a total of around 60 variations. When possible, trying to fit this trait was extremely valuable.
+
+**Great** (3.69 in 48 games!) is a unique trait of 5-cost unit Wukong, which further supports the deduction earlier that he is a great unit to flexibly slot into team compositions.
