@@ -144,7 +144,7 @@ accuracy <- mean(predict(model, testset) == testset$diagnosis)
 
 You can find the parameters and their results below:
 
-![rf_parameters](/assets/images/wisconsin/rf_parameters.png)
+![rf_parameter](/assets/images/wisconsin/rf_parameter.png)
 
 Proceeded with RSF = 6 and B = 25, as they performed well across both seeds.
 We use the tuned RandomForest Model, with RSF = 6 and B = 25.
