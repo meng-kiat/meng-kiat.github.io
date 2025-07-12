@@ -34,7 +34,7 @@ The primary objective of this project was to investigate the efficacy of using M
 
 The full code can be found below:
 
-[View Notebook](){: .btn .btn--info .btn--small}
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/RStudio-MBppiI.pdf){: .btn .btn--info .btn--small}
 
 # Dataset
 
