@@ -9,7 +9,7 @@ toc_label: "Table of Contents"
 toc_icon: "file"
 toc_sticky: true
 order: 5
-#classes: wide
+classes: wide
 ---
 
 Date Posted: 2025-06-03
