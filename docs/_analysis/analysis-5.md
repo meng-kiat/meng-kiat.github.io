@@ -234,5 +234,6 @@ We then visualised the actual & forecasted data in Tableau.
 
 {% endraw %}
 
+<br>
 # Conclusion
 Using machine learning models to predict retail sales forecasting showed some promise as seen in the results of the time series cross validation. It is worth acknowledging that this dataset is lacking in volume, both in terms of depth and breadth. There could be more data points, i.e. using weekly or even daily sales for analysis, and there could be more exogenous variables such as promotions, holidays, etc.
