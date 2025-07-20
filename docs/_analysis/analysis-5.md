@@ -27,7 +27,7 @@ Specific objectives include:
 
 The full code can be found below:
 
-[View Notebook](){: .btn .btn--info .btn--small}
+[View Notebook](https://github.com/meng-kiat/My-jupyter-notebooks/blob/main/retail_forecast_xgb_final.ipynb){: .btn .btn--info .btn--small}
 
 # Dataset
 
