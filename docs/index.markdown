@@ -50,7 +50,7 @@ I keep track of various projects, dashboards and videos I've done here.
 ## Dashboards
 <ul>
   {% assign reversed_dashboards = site.dashboards | reverse %}
-  {% for item in reversed_dashboards %}
+  {% for item in site.dashboards %}
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
       <span style="display: block; font-size: 0.75em;"> 
